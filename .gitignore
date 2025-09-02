@@ -1,0 +1,32 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# Local configs
+terraform.tfvars
+*.auto.tfvars
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual envs
+env/
+venv/
+.venv/
+
+# Docker
+*.log
+*.pid
+*.seed
+*.bak
+
+# MacOS / Windows noise
+.DS_Store
+Thumbs.db
